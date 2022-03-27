@@ -127,8 +127,8 @@ def checkIndex():
         if stopProgram() == True:
             break   
 
-
-while True: 
+stop = False
+while (not True): 
     print('''
                                                                     MENU PILIHAN
                                                         ====================================
@@ -169,10 +169,11 @@ while True:
     elif Command == 6:
         checkIndex()
 
-    
-
     elif Command == 0:
         break
+        
+     else:
+      print("Command Not Found !")
 
 
 print()
